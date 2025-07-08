@@ -14,3 +14,7 @@ model = ChatGroq(
 api_key=GROQ_API_KEY,
 model="llama3-70b-8192",
 )
+
+#Page title and header
+st.set_page_config(page_title="AI Long Text Summarizer")
+st.header("AI Long Text Summarizer")
